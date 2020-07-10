@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.16.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - tap > tap-mocha-reporter > debug:
+        patched: '2020-07-10T21:34:08.185Z'
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2020-07-10T21:34:08.185Z'
+  'npm:http-signature:20150122':
+    - tap > codecov.io > request > http-signature:
+        patched: '2020-07-10T21:34:08.185Z'
+  'npm:mime:20170907':
+    - tap > codecov.io > request > form-data > mime:
+        patched: '2020-07-10T21:34:08.185Z'
+  'npm:minimatch:20160620':
+    - tap > nyc > glob > minimatch:
+        patched: '2020-07-10T21:34:08.185Z'
+    - tap > nyc > rimraf > glob > minimatch:
+        patched: '2020-07-10T21:34:08.185Z'
+    - tap > nyc > spawn-wrap > rimraf > glob > minimatch:
+        patched: '2020-07-10T21:34:08.185Z'
+    - tap > nyc > istanbul > fileset > minimatch:
+        patched: '2020-07-10T21:34:08.185Z'
+    - tap > nyc > istanbul > fileset > glob > minimatch:
+        patched: '2020-07-10T21:34:08.185Z'
+  'npm:ms:20170412':
+    - tap > tap-mocha-reporter > debug > ms:
+        patched: '2020-07-10T21:34:08.185Z'
+  'npm:request:20160119':
+    - tap > codecov.io > request:
+        patched: '2020-07-10T21:34:08.185Z'
+  'npm:tunnel-agent:20170305':
+    - tap > codecov.io > request > tunnel-agent:
+        patched: '2020-07-10T21:34:08.185Z'
